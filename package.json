@@ -1,0 +1,21 @@
+{
+  "name": "image-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel deploy --prod"
+  },
+  "keywords": [],
+  "author": "aberigle",
+  "license": "MIT",
+  "devDependencies": {
+    "vercel": "^28.12.8"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "got": "^12.5.3"
+  }
+}
