@@ -7,5 +7,6 @@ export default async (req, res) => {
   let market = req.query.market || "es-ES"
 
   let result = await fetch(url + market)
+  res.set('Cache-Control', 'public, s-maxage=43200')
   return res.json(await result.json())
 }
